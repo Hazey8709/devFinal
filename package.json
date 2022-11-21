@@ -2,7 +2,7 @@
   "name": "devfinal",
   "version": "1.0.0",
   "description": "full-sail project Last",
-  "source": "index.js",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -15,6 +15,12 @@
   "author": "Hazey",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^7.6.0"
+    "@faker-js/faker": "^7.6.0",
+    "axios": "^1.1.3",
+    "parcel": "^2.8.0"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "process": "^0.11.10"
   }
 }
