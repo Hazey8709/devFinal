@@ -1,0 +1,16 @@
+{
+  "name": "devfinal",
+  "version": "1.0.0",
+  "description": "full-sail project Last",
+  "source": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hazey",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
