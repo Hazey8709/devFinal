@@ -1,23 +1,25 @@
-// import axios from "axios";
+// //import axios from "axios";
 
-// const URL = "https://pokeapi.co/api/v2/pokemon/";
+// const pokeApi = [];
 
-// const getPokeApi = () => {
-//     axios(URL)
+// const getPokeApi = () =>
+//     fetch("https://pokeapi.co/api/v2/pokemon/")
 //         .then((res) => {
-//             return res;
+//             //console.log(res);
+//             return res.json();
 //         })
-//         .catch((err) => console.log(err));
-// };
+//         .then((data) => {
+//             //console.log(".then: data", data);
+//             for (let i = 0; i < data.length; i++) {
+//                 const pokeData = data;
+//                 pokeApi.push(pokeData);
+//             }
+//         });
 
+// console.log("-- pokeApi: --", pokeApi);
 
-// //getPokeApi()
-// //console.log(pokeApi)
+// export default getPokeApi;
 
-// //const PokeApi = res.data
-
-// // const PokeApi = axios.get(URL).then((res) => {
-// //     res.results;
-// // });
-
-// export default res.data;
+// .then((data) => console.log("pokemon.js:", data))(() => {
+//     //console.log(data);
+// });
